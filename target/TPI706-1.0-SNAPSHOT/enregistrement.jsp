@@ -12,11 +12,29 @@
     <title>Enregistrer un colis</title>
 </head>
 <body>
-    <input type="text" id="name" name="name">
-son poids,
-sa valeur,
-son origine,
-sa destination.
-
+<h1>Enregistrer un colis</h1>
+<form method="post">
+    <div>
+        <label>Nom :</label>
+        <input type="text" id="nom" name="nom">
+    </div>
+    <div>
+        <label>Poids :</label>
+        <input type="text" id="poids" name="poids">
+    </div>
+    <div>
+        <label>Valeur :</label>
+        <input type="text" id="valeur" name="valeur">
+    </div>
+    <div>
+        <label>Origine :</label>
+        <input type="text" id="origine" name="origine">
+    </div>
+    <div>
+        <label>Destination :</label>
+        <input type="text" id="destination" name="destination">
+    </div>
+</form>
+<button>Envoyer</button>
 </body>
 </html>

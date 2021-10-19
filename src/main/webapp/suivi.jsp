@@ -12,8 +12,11 @@
     <title>Suivre mon colis</title>
 </head>
 <body>
-    <label for="inputsuivi">Suivre mon colis</label>
-    <input id="inputsuivi" type="text" value="identifiant colis" required/>
+    <h1>Suivre mon colis</h1>
+    <div>
+        <label for="inputsuivi">Identifiant colis : </label>
+        <input id="inputsuivi" type="text" value="identifiant colis" required/>
+    </div>
     <button type="button">Recherche</button>
 </body>
 </html>
