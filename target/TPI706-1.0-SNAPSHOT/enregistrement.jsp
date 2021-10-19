@@ -12,29 +12,30 @@
     <title>Enregistrer un colis</title>
 </head>
 <body>
-<h1>Enregistrer un colis</h1>
-<form method="post">
-    <div>
-        <label>Nom :</label>
-        <input type="text" id="nom" name="nom">
-    </div>
-    <div>
-        <label>Poids :</label>
-        <input type="text" id="poids" name="poids">
-    </div>
-    <div>
-        <label>Valeur :</label>
-        <input type="text" id="valeur" name="valeur">
-    </div>
-    <div>
-        <label>Origine :</label>
-        <input type="text" id="origine" name="origine">
-    </div>
-    <div>
-        <label>Destination :</label>
-        <input type="text" id="destination" name="destination">
-    </div>
-</form>
-<button>Envoyer</button>
+    <h1>Enregistrer un colis</h1>
+    <hr/>
+    <form method="post">
+    <%--    <div>--%>
+    <%--        <label>Identifiant :</label>--%>
+    <%--        <input type="text" id="identifiant" name="identifiant">--%>
+    <%--    </div>--%>
+        <div>
+            <label>Poids :</label>
+            <input type="text" id="poids" name="poids">
+        </div>
+        <div>
+            <label>Valeur :</label>
+            <input type="text" id="valeur" name="valeur">
+        </div>
+        <div>
+            <label>Origine :</label>
+            <input type="text" id="origine" name="origine">
+        </div>
+        <div>
+            <label>Destination :</label>
+            <input type="text" id="destination" name="destination">
+        </div>
+        <input type="submit" value="Envoyer"/>
+    </form>
 </body>
 </html>

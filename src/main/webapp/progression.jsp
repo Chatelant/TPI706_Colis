@@ -13,10 +13,13 @@
 </head>
 <body>
     <h1>Progression colis</h1>
-    <div>
-        <label for="inputsuivi">Identifiant colis : </label>
-        <input id="inputsuivi" type="text" value="identifiant colis" required/>
-    </div>
-    <button type="button">Recherche</button>
+    <hr/>
+    <form method="post">
+        <div>
+            <label for="inputprogression">Identifiant colis : </label>
+            <input id="inputprogression" type="text" name="inputprogression" required/>
+        </div>
+        <input type="submit" value="Rechercher"/>
+    </form>
 </body>
 </html>

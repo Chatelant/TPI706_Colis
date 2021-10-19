@@ -13,6 +13,7 @@
 </head>
 <body>
     <h1>Enregistrer un colis</h1>
+    <hr/>
     <form method="post">
     <%--    <div>--%>
     <%--        <label>Identifiant :</label>--%>
@@ -34,7 +35,7 @@
             <label>Destination :</label>
             <input type="text" id="destination" name="destination">
         </div>
+        <input type="submit" value="Envoyer"/>
     </form>
-    <button>Envoyer</button>
 </body>
 </html>

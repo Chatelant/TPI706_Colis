@@ -12,14 +12,12 @@
     <title>Title</title>
 </head>
 <body>
-<h1>Index</h1>
-<%--    <a href="hello-servlet">Hello Servlet</a>--%>
-<ul>
-    <li><a href="enregistrement">Enregistrement colis</a></li>
-    <li><a href="suivi">Suivi colis</a></li>
-    <li><a href="progression">Progression colis</a></li>
-</ul>
-
-
+    <h1>Index</h1>
+    <%--    <a href="hello-servlet">Hello Servlet</a>--%>
+    <ul>
+        <li><a href="enregistrement">Enregistrement colis</a></li>
+        <li><a href="suivi">Suivi colis</a></li>
+        <li><a href="progression">Progression colis</a></li>
+    </ul>
 </body>
 </html>
