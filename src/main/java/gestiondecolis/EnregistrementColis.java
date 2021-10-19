@@ -1,4 +1,6 @@
 package gestiondecolis;
+import gestiondecolis.jpa.Colis;
+
 import java.io.*;
 import javax.servlet.ServletException;
 import javax.servlet.http.*;
@@ -37,9 +39,14 @@ public class EnregistrementColis extends HttpServlet {
         String valeur = request.getParameter("valeur");
         String origine = request.getParameter("origine");
         String destination = request.getParameter("destination");
-        System.out.println(poids);
-        System.out.println(valeur);
-        System.out.println(origine);
-        System.out.println(destination);
+        PrintWriter out = response.getWriter();
+        out.println(poids);
+        out.println(valeur);
+        out.println(origine);
+        out.println(destination);
+
+        Colis c = ejb.addColis(Double.parseDouble(poids), Double.parseDouble(valeur), origine, destination);
+        out.println(c.getId());
+
     }
 }

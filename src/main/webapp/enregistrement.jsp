@@ -14,7 +14,7 @@
 <body>
     <h1>Enregistrer un colis</h1>
     <hr/>
-    <form method="post">
+    <form action="enregistrer" method="post">
     <%--    <div>--%>
     <%--        <label>Identifiant :</label>--%>
     <%--        <input type="text" id="identifiant" name="identifiant">--%>

@@ -23,7 +23,7 @@ public class Colis implements Serializable {
     /**
      * Constructeur sans parametre obligatoire.
      */
-
+    public Colis(){}
     public Colis(double poids, double valeur, String origine, String destination){
         this.poids = poids;
         this.valeur = valeur;
