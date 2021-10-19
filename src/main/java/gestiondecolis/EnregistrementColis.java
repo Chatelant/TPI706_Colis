@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 //import fr.usmb.m2isc.mesure.ejb.MesureEJB;
 //import fr.usmb.m2isc.mesure.jpa.Mesure;
 
-
+// Oui le commentaire
 
 @WebServlet(name = "enregistrement", value = "/enregistrement")
 public class EnregistrementColis extends HttpServlet {
