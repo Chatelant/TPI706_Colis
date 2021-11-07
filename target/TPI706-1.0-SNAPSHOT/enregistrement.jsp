@@ -15,27 +15,27 @@
     <h1>Enregistrer un colis</h1>
     <hr/>
     <form action="enregistrer" method="post">
-    <%--    <div>--%>
-    <%--        <label>Identifiant :</label>--%>
-    <%--        <input type="text" id="identifiant" name="identifiant">--%>
-    <%--    </div>--%>
         <div>
-            <label>Poids :</label>
+            <label for="poids">Poids :</label>
             <input type="text" id="poids" name="poids">
         </div>
         <div>
-            <label>Valeur :</label>
+            <label for="valeur">Valeur :</label>
             <input type="text" id="valeur" name="valeur">
         </div>
         <div>
-            <label>Origine :</label>
+            <label for="origine">Origine :</label>
             <input type="text" id="origine" name="origine">
         </div>
         <div>
-            <label>Destination :</label>
+            <label for="destination">Destination :</label>
             <input type="text" id="destination" name="destination">
         </div>
         <input type="submit" value="Envoyer"/>
     </form>
+    <br/>
+    <p>${colis_id}</p>
+    <br/>
+    <a href="index">Back</a>
 </body>
 </html>

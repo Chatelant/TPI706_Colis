@@ -16,10 +16,29 @@
     <hr/>
     <form method="post">
         <div>
-            <label for="inputprogression">Identifiant colis : </label>
-            <input id="inputprogression" type="text" name="inputprogression" required/>
+            <span>Identifiant colis : ${colis_id}</span>
         </div>
-        <input type="submit" value="Rechercher"/>
+        <div>
+            <label>Latitude :</label>
+            <input type="text" id="latitude" name="latitude" placeholder="${colis_latitude}">
+        </div>
+        <div>
+            <label>Longitude :</label>
+            <input type="text" id="longitude" name="longitude" placeholder="${colis_longitude}">
+        </div>
+        <div>
+            <label>Emplacement :</label>
+            <input type="text" id="emplacement" name="emplacement" placeholder="${colis_emplacement}">
+        </div>
+        <div>
+            <label>Etat :</label>
+            <input type="text" id="etat" name="etat" placeholder="${colis_etat}">
+        </div>
+        <input type="submit" value="Modifier"/>
     </form>
+    <button type="button" class="suppr_colis">Supprimer</button>
+
+    <br/>
+    <a href="index">Back</a>
 </body>
 </html>

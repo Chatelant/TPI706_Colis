@@ -3,7 +3,7 @@ import javax.persistence.*;
 import java.io.Serializable;
 
 
-enum Etat{ENREGISTREMENT, EN_ATTENTE, ACHEMINEMENT, BLOQUE, LIVRE};
+enum Etat{ ENREGISTREMENT, EN_ATTENTE, ACHEMINEMENT, BLOQUE, LIVRE};
 
 @Entity
 public class Colis implements Serializable {

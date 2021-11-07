@@ -21,5 +21,25 @@
         </div>
         <input type="submit" value="Rechercher"/>
     </form>
+
+    <br/>
+    <p>${colis_id}</p>
+    <ul>
+        <li>${colis_poids}</li>
+        <li>${colis_valeur}</li>
+        <li>${colis_origine}</li>
+        <li>${colis_destination}</li>
+        <li>${colis_latitude}</li>
+        <li>${colis_longitude}</li>
+        <li>${colis_emplacement}</li>
+        <li>${colis_etat}</li>
+    </ul>
+
+    <br/>
+    <a href="progression" class="edit_colis">Modifier</a>
+    <button type="button" class="suppr_colis">Supprimer</button>
+
+    <br/>
+    <a href="index">Back</a>
 </body>
 </html>

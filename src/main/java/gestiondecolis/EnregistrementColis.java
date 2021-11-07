@@ -17,8 +17,6 @@ import javax.servlet.http.HttpServletResponse;
 //import fr.usmb.m2isc.mesure.ejb.MesureEJB;
 //import fr.usmb.m2isc.mesure.jpa.Mesure;
 
-// Oui le commentaire
-
 @WebServlet(name = "enregistrement", value = "/enregistrement")
 public class EnregistrementColis extends HttpServlet {
     private static final long serialVersionUID = 1L;
@@ -39,6 +37,7 @@ public class EnregistrementColis extends HttpServlet {
         String valeur = request.getParameter("valeur");
         String origine = request.getParameter("origine");
         String destination = request.getParameter("destination");
+
         PrintWriter out = response.getWriter();
         out.println(poids);
         out.println(valeur);
